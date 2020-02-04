@@ -1,7 +1,7 @@
 # Dashboard
 from ipywidgets.widgets import HBox, VBox, Tab, Layout, HTML
 
-from utils.content_widgets import (glimpse_output_widget,
+from .utils.content_widgets import (glimpse_output_widget,
                                    cf_output_widget, pp_output_widget,
                                    columns_output_widget)
 import logging
