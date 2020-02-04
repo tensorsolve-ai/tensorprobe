@@ -350,8 +350,8 @@ class InformationValue:
         return (iv_df, iv, target_map)
 
     def get_iv_scores(self, df, target):
-        # iv_df, iv_scores, tmap = self.compute_iv_table(df, target)
-        iv_df, iv_scores, tmap = self.data_vars(df, target)
+        iv_df, iv_scores, tmap = self.compute_iv_table(df, target)
+        # iv_df, iv_scores, tmap = self.data_vars(df, target)
         return iv_scores
 
     def get_iv_df(self, df, target):
