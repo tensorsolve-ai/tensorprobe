@@ -2,8 +2,8 @@
 # All API(s) here
 
 """Main module."""
-from dashboard import Dashboard
-from utils.content_widgets import summary_stats_widget, table_info_widget
+from .dashboard import Dashboard
+from .utils.content_widgets import summary_stats_widget, table_info_widget
 from IPython.display import display
 
 
