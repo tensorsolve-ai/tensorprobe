@@ -27,7 +27,7 @@ Tensorprobe
 
 
 
-TensorProbe assits in interactively probing your dataset.
+Tensorprobe assits in interactively probing your dataset.
 
 
 * Free software: MIT license
@@ -56,6 +56,23 @@ Execute Python functions in parallel.
     cd tensorprobe
     git checkout master  # master is pinned to the latest release
     pip install .
+
+
+Quick Start
+-----------
+
+.. code-block:: python
+
+    import tensorprobe as tp
+    import seaborn as sns
+
+
+    # load an example dataframe
+    titanic = sns.load_dataset("titanic")
+
+    # investigate dataframe
+    tp.probe(titanic)
+
 
 
 Features
