@@ -43,6 +43,7 @@ Tensorprobe supports python 3.5+.
 
 ```sh
 pip install tensorprobe
+
 ```
 
 **Install from source:**
@@ -52,6 +53,7 @@ git clone https://github.com/tensorsolve-ai/tensorprobe.git
 cd tensorprobe
 git checkout master  # master is pinned to the latest release
 pip install .
+
 ```
 
 
