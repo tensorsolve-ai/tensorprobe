@@ -39,7 +39,7 @@ Installation
 
 Tensorprobe supports python 3.5+.
 
-**Direct Installation using pip**
+**Direct Installation using pip:**
 
 ```sh
     pip install tensorprobe
