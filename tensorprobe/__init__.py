@@ -5,3 +5,6 @@
 __author__ = """Abhishek Singh"""
 __email__ = 'abhishek.singh@tensorsolve.ai'
 __version__ = '0.1.0'
+
+
+from .tensorprobe import probe as probe
