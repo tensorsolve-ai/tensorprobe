@@ -74,6 +74,8 @@ Quick Start
     tp.probe(titanic)
 
 
+.. image:: /images/dashboard.png
+    :alt: dashboard image
 
 Features
 --------
